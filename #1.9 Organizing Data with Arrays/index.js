@@ -1,4 +1,3 @@
-// String 
-const what = "HANSOL";
+const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", true];
 
-console.log(what);
+console.log(daysOfWeek[2]);
