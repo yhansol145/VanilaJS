@@ -33,3 +33,4 @@ const power = calculator.power(44, 2)
 console.log(power)
 
 // 객체를 이용하여 계산기 만들기
+// 객체의 활용
