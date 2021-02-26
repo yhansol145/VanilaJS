@@ -19,5 +19,6 @@ function init() {
 init();
 
 /*
-setInterval(실행할 함수, 실행할 시간간격)
+setInterval(실행할 함수, 실행할 시간간격);
+setInterval(fn, 1000);
 */
