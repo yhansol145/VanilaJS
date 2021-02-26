@@ -1,27 +1,36 @@
-const title = document.querySelector("#title");
-
-function handleClick(){
-    title.style.color = "blue";
+if (10 === 5) {
+    console.log("Hi");
+} else if ("10" === "10"){
+    console.log("lalala");
+} else {
+    console.log("Ho");
 }
 
-title.addEventListener("click", handleClick);
 
+
+if (20 > 5 || "Hansol" === "Hansol"){
+    console.log("Yes");
+} else {
+    console.log("No");
+}
+
+
+
+const age = prompt("How old are you");
+
+if(age >= 18 && age <= 21){
+    console.log('you can drink but you should not');
+} else if(age > 21){
+    console.log('go ahead');
+} else {
+    console.log('too young');
+}
 
 /*
-자바스크립트는 html과 css를 바꾸는 기능을 하지만 이벤트에 반응하기 위해 만들어졌다.
-
-이벤트란? 웹사이트에서 발생하는 것들을 말한다.
-click,resize,submit,input, change, load, before, closing, printing 같은 것들
-
-addEventListener구문
-target.addEventListener(type, listener);
-
-예제)
-function handleResize(){
-console.log("I have been resized")}
-
-resize
-window.addEventListener("resize", handleResize);
-
-handleResize 를 할 때 , 뒤에 ()를 붙이지 않는다. ()를 붙이면 함수가 바로 호출되기 때문
+- if, else는 기본적으로 프로그래밍에서 어떻게 모든게 잘 동작하는지 보여주는 것이다.
+- 조건이란 이게 뭐든 참을 의미 하면 뭐든 넣을 수 있다는 것을 의미.
+- 피연산자란 다른 조건들을 합치게 하는 것이다.
+- ===는 같음을 의미
+- &&는 and를 의미. 조건을 모두 충족할 때
+- ||는 or을 의미. 조건 중 하나를 충족할 때
 */
