@@ -22,7 +22,7 @@ toggle
 
 title.classList.toggle(CLICKED_CLASS);
 
-이전에 했던걸 모두 똑같이 해줌
+이전에 했던걸 모두 똑같이 해줌./
 
     const hasClass = title.classList.contains(CLICKED_CLASS);
     if (hasClass) {
