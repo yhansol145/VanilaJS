@@ -29,3 +29,7 @@ function handleOnline() {
 
 window.addEventListener("offline", handleOffline)
 window.addEventListener("online", handleOnline)
+
+/*
+document.querySelector
+*/
