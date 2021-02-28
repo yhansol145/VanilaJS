@@ -14,7 +14,7 @@ function paintGreeting(text) {
 function loadName() {
   const currentUser = localStorage.getItem(USER_LS);
   if (currentUser === null) {
-    // she is not
+    // forget ?
   } else {
     paintGreeting(currentUser);
   }
